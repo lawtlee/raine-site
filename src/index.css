@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Mono@400;700&display=swap");
+
+body {
+  font-family: 'Red Hat Mono', monospace;
+}
