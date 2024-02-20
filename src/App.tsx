@@ -1,13 +1,13 @@
 import Contact from './pages/Contact'
 import Home from './pages/Home'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Subscribe from './pages/Subscribe'
 import UpcomingShows from './pages/UpcomingShows'
 import About from './pages/About'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
@@ -15,7 +15,7 @@ function App() {
         <Route path="/upcoming-shows" element={<UpcomingShows/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
